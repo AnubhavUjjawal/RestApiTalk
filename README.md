@@ -1,0 +1,2 @@
+# RestApiTalk
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6afec29da62e457ca345dc7c71e73707)](https://app.codacy.com/app/AnubhavUjjawal/RestApiTalk?utm_source=github.com&utm_medium=referral&utm_content=AnubhavUjjawal/RestApiTalk&utm_campaign=Badge_Grade_Settings)
