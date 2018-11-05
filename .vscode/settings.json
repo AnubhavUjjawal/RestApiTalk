@@ -1,6 +1,0 @@
-{
-    "python.pythonPath": "/Users/anubhavujjawal/Desktop/cllg/RESTAPI-TALK/myenv/bin",
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"],
-   
-}

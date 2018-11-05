@@ -30,8 +30,8 @@ class ApiUser(models.Model):
 
     def __str__(self):
         return f'{self.roll_no} {self.user.username}'
-   
+  
     class Meta:
         ordering = ('roll_no',)
-   
+
     objects = ApiUserManager()
