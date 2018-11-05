@@ -5,7 +5,7 @@ class ApiUserManager(models.Manager):
     """
         Manager for model ApiUser
     """
-    def create_api_user(self, username, email, roll_no, password, **kwargs):
+    def create_api_user(self, username, roll_no, password, email=None, **kwargs):
         """Method for creating ApiUser. returns API User"""
         user = User.objects.create_user(
             username,
@@ -30,7 +30,6 @@ class ApiUser(models.Model):
 
     def __str__(self):
         return f'{self.roll_no} {self.user.username}'
-  
     class Meta:
         ordering = ('roll_no',)
 
