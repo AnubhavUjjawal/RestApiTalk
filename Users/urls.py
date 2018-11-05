@@ -17,5 +17,5 @@ from django.urls import path
 from .views import ApiUserViewSet
 
 urlpatterns = [
-    path('', ApiUserViewSet.as_view({'get': 'list'})),
+    path('', ApiUserViewSet.as_view()),
 ]
